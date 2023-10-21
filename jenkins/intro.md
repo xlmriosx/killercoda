@@ -13,14 +13,10 @@
 
 <br>
 
-<footer class="bg-dark-1">
-  <section id="footer" class="py-5">
-    <div class="container text-center">
-      <a href="#" class="instagram"></a>
-      <a href="#" class="twitter"></a>
-      <a href="#" class="linkedin"></a>
-      <a href="#" class="github"></a>
-      <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2020 designed by W3schoolweb</h6>
-    </div>
-  </section>
-</footer>
+<div class="container text-center">
+    <a href="#" class="instagram"></a>
+    <a href="#" class="twitter"></a>
+    <a href="#" class="linkedin"></a>
+    <a href="#" class="github"></a>
+    <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2020 designed by W3schoolweb</h6>
+</div>
