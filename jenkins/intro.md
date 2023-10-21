@@ -1,8 +1,3 @@
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../utils/styles.css">
-</head>
-
 <br>
 
 ### In this workspace we will learn somethings about utilities in Jenkins...
@@ -12,24 +7,43 @@
 <br>
 
 <div class="container text-center">
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
-    <a href="#" class="fa fa-google"></a>
-    <a href="#" class="fa fa-linkedin"></a>
-    <a href="#" class="fa fa-youtube"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-pinterest"></a>
-    <a href="#" class="fa fa-snapchat-ghost"></a>
-    <a href="#" class="fa fa-skype"></a>
-    <a href="#" class="fa fa-android"></a>
-    <a href="#" class="fa fa-dribbble"></a>
-    <a href="#" class="fa fa-vimeo"></a>
-    <a href="#" class="fa fa-tumblr"></a>
-    <a href="#" class="fa fa-vine"></a>
-    <a href="#" class="fa fa-foursquare"></a>
-    <a href="#" class="fa fa-stumbleupon"></a>
-    <a href="#" class="fa fa-flickr"></a>
-    <a href="#" class="fa fa-yahoo"></a>
-    <a href="#" class="fa fa-reddit"></a>
-    <a href="#" class="fa fa-rss"></a>
+    <h3>You can find me in:</h3>
+    <ul>
+  <li>
+    <a class="facebook" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="twitter" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="instagram" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="google" href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
 </div>
