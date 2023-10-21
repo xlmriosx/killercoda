@@ -1,8 +1,6 @@
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../utils/styles.css">
 </head>
 
 <br>
@@ -14,9 +12,24 @@
 <br>
 
 <div class="container text-center">
-    <a href="#" class="instagram"></a>
-    <a href="#" class="twitter"></a>
-    <a href="#" class="linkedin"></a>
-    <a href="#" class="github"></a>
-    <h6 class="m-0 mt-4 text-center text-white text-capitalize">Copyright &copy; 2020 designed by W3schoolweb</h6>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-pinterest"></a>
+    <a href="#" class="fa fa-snapchat-ghost"></a>
+    <a href="#" class="fa fa-skype"></a>
+    <a href="#" class="fa fa-android"></a>
+    <a href="#" class="fa fa-dribbble"></a>
+    <a href="#" class="fa fa-vimeo"></a>
+    <a href="#" class="fa fa-tumblr"></a>
+    <a href="#" class="fa fa-vine"></a>
+    <a href="#" class="fa fa-foursquare"></a>
+    <a href="#" class="fa fa-stumbleupon"></a>
+    <a href="#" class="fa fa-flickr"></a>
+    <a href="#" class="fa fa-yahoo"></a>
+    <a href="#" class="fa fa-reddit"></a>
+    <a href="#" class="fa fa-rss"></a>
 </div>
