@@ -1,7 +1,9 @@
 <br>
 
 ### In this workspace we will learn somethings about utilities in Jenkins...
-<img src="../assets/jenkins.png" style="width: 300px">
+<center>
+    <img src="../assets/jenkins.png" style="width: 300px">
+</center>
 
 <br>
 
