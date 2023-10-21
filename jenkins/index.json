@@ -1,0 +1,17 @@
+{
+  "title": "Jenkins",
+  "description": "Practice of Jenkins with key concepts by xlmriosx",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
