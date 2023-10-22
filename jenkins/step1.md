@@ -1,13 +1,42 @@
 
-### Run a instance of docker with jenkins installed:
+### Create a folder where be files
 
-`docker run -p 8080:8080 -p 50000:50000 --name jenkins jenkins/jenkins:2.60.3`
+`mkdir /root/jenkins`
 
-### Now access Jenkins UI using this link:
+### Run a instance of docker with jenkins installed
 
-[Jenkins UI]({{TRAFFIC_HOST1_8080}})
+```
+docker run -u 0 -p 8080:8080 -p 50000:50000 \
+-v /root/jenkins:/var/jenkins_home \
+-v /var/run/docker.sock:/var/run/docker.sock \
+--name jenkins xlmriosx/jenkins:2.414.3-jdk17
+```
 
-### Now access Jenkins where will be connected a slave agent:
+> Maybe in the time you do this exists a new version of this image
 
-[Jenkins slaves]({{TRAFFIC_HOST1_50000}})
+### Now access Jenkins UI using this link
 
+#### [Jenkins UI]({{TRAFFIC_HOST1_8080}})
+
+### Now access Jenkins where will be connected a slave agent
+
+#### [Jenkins slaves]({{TRAFFIC_HOST1_50000}})
+
+### Get password
+
+> The password is in /var/jenkins_home/secrets/initialAdminPassword
+
+`docker exec -it jenkins sh -c "cat /var/jenkins_home/secrets/initialAdminPassword"`
+
+### Now we will install plugins
+
+1. Go left panel, select "Manage Jenkins"
+2. Go in "Stystem Configuration" select "Plugins"
+3. Go left panel and select "Avaible plugins"
+4. Search "docker" and select "Docker", "Docker pipeline"
+
+### Later of install restart container with
+
+`docker restart jenkins`
+
+### Now to create some pipelines

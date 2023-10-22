@@ -8,42 +8,16 @@
 
 <div class="container text-center">
     <h3>You can find me in:</h3>
-    <ul>
-  <li>
-    <a class="facebook" href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <i class="fa fa-facebook" aria-hidden="true"></i>
+    <a href="https://github.com/xlmriosx">
+        <img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/github.png" style="width: 80px"/>
     </a>
-  </li>
-  <li>
-    <a class="twitter" href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <i class="fa fa-twitter" aria-hidden="true"></i>
+    <a href="https://www.linkedin.com/in/xlmriosx/">
+        <img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/linkedin.png" style="width: 80px"/>
     </a>
-  </li>
-  <li>
-    <a class="instagram" href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <i class="fa fa-instagram" aria-hidden="true"></i>
+    <a href="https://www.instagram.com/xlmriosx/">
+        <img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/instagram.png" style="width: 80px"/>
     </a>
-  </li>
-  <li>
-    <a class="google" href="#">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <i class="fa fa-google-plus" aria-hidden="true"></i>
+    <a href="https://twitter.com/xlmriosx">
+        <img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/x.png" style="width: 80px"/>
     </a>
-  </li>
-</ul>
 </div>
