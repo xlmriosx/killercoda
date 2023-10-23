@@ -14,19 +14,15 @@ docker run -u 0 -p 8080:8080 -p 50000:50000 \
 
 > Maybe in the time you do this exists a new version of this image
 
-### Now access Jenkins UI using this link
+#### [Now access Jenkins UI using this link]({{TRAFFIC_HOST1_8080}})
 
-#### [Jenkins UI]({{TRAFFIC_HOST1_8080}})
-
-### Now access Jenkins where will be connected a slave agent
-
-#### [Jenkins slaves]({{TRAFFIC_HOST1_50000}})
+#### [Now access Jenkins where will be connected a slave agent]({{TRAFFIC_HOST1_50000}})
 
 ### Get password
 
-> The password is in /var/jenkins_home/secrets/initialAdminPassword
-
 `docker exec -it jenkins sh -c "cat /var/jenkins_home/secrets/initialAdminPassword"`
+
+> The password is in /var/jenkins_home/secrets/initialAdminPassword
 
 ### Now we will install plugins
 
