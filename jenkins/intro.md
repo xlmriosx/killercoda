@@ -15,7 +15,7 @@
         <img src="../utils/assets/linkedin.png" style="width: 80px"/>
     </a>
     <a href="https://www.instagram.com/xlmriosx/">
-        <img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/instagram.png" style="width: 80px"/>
+        <img src="../utils/assets/instagram.png" style="width: 80px"/>
     </a>
     <a href="https://twitter.com/xlmriosx">
         <img src="../utils/assets/x.png" style="width: 80px"/>
