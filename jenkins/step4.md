@@ -3,21 +3,23 @@
 
 Select in "New Item" 
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-1.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step4/s4-1.png" style="width: 300px">
 
 #### Step 2
 
 Put a name, select "Multibranch" and click "Ok"
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-2.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step4/s4-2.png" style="width: 300px">
 
 #### Step 3
 
-Go to "Branch Sources", select "GitHub", and configure "Script Path" like above
+Go to "Branch Sources", select "GitHub" (`https://github.com/xlmriosx/jenkins.git`), and configure "Script Path" like above
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-3.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step4/s4-3.png" style="width: 300px">
 
-https://github.com/xlmriosx/jenkins.git
+#### Step 4
 
-parameters/Jenkinsfile
-when/Jenkinsfile
+To test differents pipeline try in Script Path:
+
+- When: `when/Jenkinsfile`
+- Parameters: `parameters/Jenkinsfile`
