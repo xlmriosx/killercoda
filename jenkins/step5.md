@@ -1,21 +1,46 @@
 
 #### Step 1
 
-Select in "New Item" 
+Select in "Manage Jenkins" and "System"
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-1.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step5/s5-1.png" style="width: 300px">
 
 #### Step 2
 
-Put a name, select "Multibranch" and click "Ok"
+Search "Global Pipeline Libraries", put name "`shared-library`" and set Default version like "`main`"
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-2.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step5/s5-2.png" style="width: 300px">
 
 #### Step 3
 
-Go to "Branch Sources", select "GitHub", and configure "Script Path" like above
+In "Source Code Managment" set "GitHub", paste in "Repository HTTPS URL" "`https://github.com/xlmriosx/jenkins-library.git`" and save
 
-<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-3.png" style="width: 300px">
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step5/s5-3.png" style="width: 300px">
 
-https://github.com/xlmriosx/jenkins-library.git
+#### Step 4
 
+##### Option 1
+Create a "Pipeline" and use:
+
+```
+@Library ('shared-library')_
+
+pipeline {
+    agent any
+    stages{
+        stage('Build'){
+            steps{
+                script{
+                    build()
+                }
+            }
+        }
+    }
+}
+```
+
+##### Option 2
+
+Create a "Multibranch" and use previous repository (`https://github.com/xlmriosx/jenkins.git`)
+
+Configurate "Script Path" like `shared-library/Jenkinsfile`

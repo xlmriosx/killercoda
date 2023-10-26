@@ -10,9 +10,9 @@ docker run -u 0 -p 8080:8080 -p 50000:50000 \
 
 > Maybe in the time you do this exists a new version of this image
 
-#### [Now access Jenkins UI using this link]({{TRAFFIC_HOST1_8080}})
+#### [Access Jenkins UI]({{TRAFFIC_HOST1_8080}})
 
-#### [Now access Jenkins where will be connected a slave agent]({{TRAFFIC_HOST1_50000}})
+#### [Access Jenkins where will be connected a slave agent]({{TRAFFIC_HOST1_50000}})
 
 ### Get password
 

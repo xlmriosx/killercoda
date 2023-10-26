@@ -24,8 +24,12 @@
         "text": "step4.md"
       },
       {
-        "title": "Pipeline by slaves",
+        "title": "Global Pipeline Library",
         "text": "step5.md"
+      },
+      {
+        "title": "Pipeline by slaves",
+        "text": "step6.md"
       }
     ]
   },
