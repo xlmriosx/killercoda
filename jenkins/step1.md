@@ -1,8 +1,4 @@
 
-### Create a folder where be files
-
-`mkdir /root/jenkins`
-
 ### Run a instance of docker with jenkins installed
 
 ```
@@ -24,15 +20,10 @@ docker run -u 0 -p 8080:8080 -p 50000:50000 \
 
 > The password is in /var/jenkins_home/secrets/initialAdminPassword
 
-### Now we will install plugins
+### Later of restart Jenkins 
 
-1. Go left panel, select "Manage Jenkins"
-2. Go in "Stystem Configuration" select "Plugins"
-3. Go left panel and select "Avaible plugins"
-4. Search "docker" and select "Docker", "Docker pipeline"
+`docker start jenkins`
 
-### Later of install restart container with
+### Now go to create some pipelines
 
-`docker restart jenkins`
-
-### Now to create some pipelines
+> Documentation: https://www.jenkins.io/doc/book/pipeline/
