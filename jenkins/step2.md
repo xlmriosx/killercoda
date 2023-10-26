@@ -1,6 +1,4 @@
 
-### Freestyle project
-
 #### Step 1
 
 Select in "New Item" 

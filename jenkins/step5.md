@@ -1,69 +1,21 @@
 
-## Slaves
+#### Step 1
 
-> Documentation: https://www.jenkins.io/doc/book/scaling/architecting-for-scale/
+Select in "New Item" 
 
-### Local agent
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-1.png" style="width: 300px">
 
-For this we dont need configure
+#### Step 2
 
-```
-pipeline {
-    agent any
-    stages {
-        stage('Test') {
-            steps {
-                echo "Hola mundo!"
-                sh "java -version"
-            }
-        }
-    }
-}
-```
+Put a name, select "Multibranch" and click "Ok"
 
-### Server agent - Images agent
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-2.png" style="width: 300px">
 
-To do this we need to provision a server that contains what is needed to run the pipeline
+#### Step 3
 
-1. Go left panel, select "Manage Jenkins"
-2. Go in "Stystem Configuration" select "Nodes"
-3. Set a name, select option of permanent agent and make configuration you need. Save agent configuration.
-4. Search node and select command line you need and set run it in server with tools you need.
+Go to "Branch Sources", select "GitHub", and configure "Script Path" like above
 
-```
-pipeline {
-    agent { 
-        label 'windows' /* In step 3, what you set in section "Label" is that you will specify here */
-    }
-    stages {
-        stage('Test') {
-            steps {
-                powershell 'C:\\Actualizador.exe'
-            }
-        }
-    }
-}
-```
+<img style="margin-left: auto; margin-right: auto; width: 50%" src="../utils/assets/jenkins/step3/s4-3.png" style="width: 300px">
 
-### Ephemeral images agent
+https://github.com/xlmriosx/jenkins-library.git
 
-1. Install plugins before specified like "Docker" and "Docker pipeline"
-2. Install docker where is running Jenkins
-3. Specify in pipeline what image you need
-
-To do this we need to specify an image that contains what is needed to run the pipeline
-
-```
-pipeline {
-    agent {
-        docker { image 'node:18.18.2-alpine3.18' }
-    }
-    stages {
-        stage('Test') {
-            steps {
-                sh 'node --version'
-            }
-        }
-    }
-}
-```
